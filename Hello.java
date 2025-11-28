@@ -17,6 +17,13 @@ public class Hello{
     if(age>18)
     {
       System.out.println("Bienvenido a bebestar");
+      System.out.println("Cuanta sed tiene?");
+      int tomar = leer.nextInt();
+
+      for(int i=0; i<tomar; i++)
+      {
+	System.out.println(name+" disfruta tu "+i+" refresco de cebada");
+      }
     }
     else
     {
