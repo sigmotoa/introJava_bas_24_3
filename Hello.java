@@ -11,7 +11,20 @@ public class Hello{
     System.out.println("Gracias por venir "+name);
     System.out.println("Ingrese su año de nacimiento");
     int year = leer.nextInt();
-    System.out.println(name+" tienes "+(2025-year)+" años");
+    int age = 2025-year;
+    System.out.println(name+" tienes "+age+" años");
+
+    if(age>18)
+    {
+      System.out.println("Bienvenido a bebestar");
+    }
+    else
+    {
+      System.out.println("Regrese en "+(18-age)+" años");
+    }
+
+
+
 
   }
 }
