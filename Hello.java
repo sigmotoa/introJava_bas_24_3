@@ -14,7 +14,7 @@ public class Hello{
     int age = 2025-year;
     System.out.println(name+" tienes "+age+" años");
 
-    if(age>18)
+    if(age>=18)
     {
       System.out.println("Bienvenido a bebestar");
       System.out.println("Cuanta sed tiene?");
